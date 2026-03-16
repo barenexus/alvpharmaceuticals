@@ -1,0 +1,14 @@
+/* SVG Icon – Global */
+.svg-icon {
+  width: 48px;
+  height: 48px;
+  color: #667eea;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.content-card:hover .svg-icon,
+.service-card:hover .svg-icon {
+  color: #764ba2;
+  transform: scale(1.08);
+}

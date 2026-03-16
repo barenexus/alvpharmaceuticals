@@ -1,0 +1,28 @@
+.tablets-section {
+  background: linear-gradient(to bottom, #f9fafb, #ffffff);
+}
+
+.tablet-card {
+  position: relative;
+}
+
+.tablet-card::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: block;
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .section-intro {
+    font-size: 1rem;
+  }
+
+  .content-card,
+  .tablet-card {
+    padding: 2rem;
+  }
+}

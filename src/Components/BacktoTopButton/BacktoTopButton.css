@@ -1,0 +1,28 @@
+.backToTopBtn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem; 
+  border-radius: 50%;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.3s ease;
+}
+
+/* Visible state */
+.backToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hidden state */
+.backToTopBtn.hide {
+  opacity: 0;
+  visibility: hidden;
+}
