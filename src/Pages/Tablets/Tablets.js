@@ -1,43 +1,48 @@
-import React, { useEffect } from "react";
-import "./Tablets.css";
+import React, { useEffect, useState } from "react";
+import "./Tablets.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { getSyrups } from "../../services/dataServices";
 
 const Tablets = () => {
+  const [tablets, setTablets] = useState([]);
+
   useEffect(() => {
+    getSyrups()
+      .then((data) => setTablets(data))
+      .catch((err) => console.error(err));
+
     AOS.init({ duration: 900, once: true });
   }, []);
 
   return (
-    <section id="tablets" className="section tablets-section">
-      <div className="container">
-        <h2 data-aos="fade-up">What We Do Best</h2>
-        <p className="section-intro" data-aos="fade-up" data-aos-delay="150">
-          Scalable solutions tailored to your business.
-        </p>
-
-        <div className="tablets-grid">
-          {[
-            "Consulting",
-            "Technology Solutions",
-            "Supply Chain",
-            "Training & Development",
-          ].map((title, index) => (
-            <div
-              className="tablet-card"
-              key={title}
-              data-aos="fade-up"
-              data-aos-delay={index * 150}
-            >
-              <h3>{title}</h3>
-              <p>
-                Professional tablets designed to drive efficiency and growth.
-              </p>
-            </div>
-          ))}
-        </div>
+    <div className="container">
+      <div className="container__heading" data-aos="fade-up">
+        Tablets
       </div>
-    </section>
+
+      <div className="container__items">
+        {tablets.map((tablet, id) => (
+          <div
+            className="container__items__item"
+            key={id}
+            data-aos="zoom-in"
+          >
+            <div className="container__items__item__image">
+              <img src={tablet.image} alt={tablet.title} />
+            </div>
+
+            <div className="container__items__item__title">
+              {tablet.title}
+            </div>
+
+            <div className="container__items__item__description">
+              {tablet.description}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

@@ -23,7 +23,7 @@ const Home = () => {
     <div>
       {/* HERO SECTION */}
       <section id="home" className="section hero">
-        <div className="container hero-content">
+        <div className="hero-content">
           
           <img
             src={Growth}

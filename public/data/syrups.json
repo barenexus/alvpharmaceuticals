@@ -1,0 +1,74 @@
+[
+        {
+                "id": "1",
+                "image": "Logo_Facebook.jpg",
+                "title": "Facebook Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "2",
+                "image": "Logo_Insta.jpg",
+                "title": "Insta Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "3",
+                "image": "Logo_Linkedin.jpg",
+                "title": "LinkedIn Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "4",
+                "image": "Logo_Thread.jpg",
+                "title": "Thread Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "5",
+                "image": "Logo_Facebook.jpg",
+                "title": "Facebook Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "6",
+                "image": "Logo_Insta.jpg",
+                "title": "Insta Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "7",
+                "image": "Logo_Linkedin.jpg",
+                "title": "LinkedIn Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "8",
+                "image": "Logo_Thread.jpg",
+                "title": "Thread Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "9",
+                "image": "Logo_Facebook.jpg",
+                "title": "Facebook Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "10",
+                "image": "Logo_Insta.jpg",
+                "title": "Insta Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "11",
+                "image": "Logo_Linkedin.jpg",
+                "title": "LinkedIn Logo",
+                "description": "Lorem34!"
+        },
+        {
+                "id": "12",
+                "image": "Logo_Thread.jpg",
+                "title": "Thread Logo",
+                "description": "Lorem34!"
+        }
+]
