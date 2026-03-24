@@ -1,74 +1,97 @@
 [
         {
                 "id": "1",
-                "image": "Logo_Facebook.jpg",
-                "title": "Facebook Logo",
-                "description": "Lorem34!"
+                "image": "lvLiv.PNG",
+                "title": "LV-LIV",
+                "subTitle": "Cyproheptadine 2mg + Tricholine Citrate 275mg Syrup",
+                "description": [
+                        "It can be used for weight gain Anti tubercular drug",
+                        "Virat Hepatitis",
+                        "Atonic Constipation",
+                        "Poor Appetite"
+                ]
         },
         {
                 "id": "2",
-                "image": "Logo_Insta.jpg",
-                "title": "Insta Logo",
-                "description": "Lorem34!"
+                "image": "lavisticD.PNG",
+                "title": "Lavistic-D",
+                "subTitle": "Magaldrate 400mg + Simethicone 20mg Suspension",
+                "description": [
+                        "Acid Indigestion",
+                        "Ulcers / HeartBurn",
+                        "Dyspepsia",
+                        "Bloating / Flatulence",
+                        "Hyperacidity"
+                ]
         },
         {
                 "id": "3",
-                "image": "Logo_Linkedin.jpg",
-                "title": "LinkedIn Logo",
-                "description": "Lorem34!"
+                "image": "lvDx.PNG",
+                "title": "LV-DX",
+                "subTitle": "Dextromethaorphan 10mg + Chlorpheniramine Maleate 2mg + Phenylepherine Hcl 5mg Syrup",
+                "description": [
+                        "Seasonal Allergic Rhinitis",
+                        "Nasal Congestion",
+                        "Sneezing & Irritation",
+                        "Blocked Nose"
+                ]
         },
         {
                 "id": "4",
-                "image": "Logo_Thread.jpg",
-                "title": "Thread Logo",
-                "description": "Lorem34!"
+                "image": "lvTg.PNG",
+                "title": "LV-TG",
+                "subTitle": "Ambroxol Hcl 15mg + Terbutaline Sulphate 1.25mg + Guaiphenesin 50mg + Menthol 2.5mg Syrup",
+                "description": [
+                        "Productive Cough",
+                        "Bronchitis",
+                        "Bronchial Asthma",
+                        "Wheezing",
+                        "Chest Congestion"
+                ]
         },
         {
                 "id": "5",
-                "image": "Logo_Facebook.jpg",
-                "title": "Facebook Logo",
-                "description": "Lorem34!"
+                "image": "lvcort.PNG",
+                "title": "LVCORT Suspension",
+                "subTitle": "Cyproheptadine 2mg + Tricholine Citrate 275mg Syrup",
+                "description": [
+                        "It can be used for weight gain Anti tubercular drug",
+                        "Virat Hepatitis",
+                        "Atonic Constipation",
+                        "Poor Appetite"
+                ]
         },
         {
                 "id": "6",
-                "image": "Logo_Insta.jpg",
-                "title": "Insta Logo",
-                "description": "Lorem34!"
+                "image": "lvcefMs.PNG",
+                "title": "Lvcef-MS",
+                "subTitle": "Ofloxacin 100mg + Metronidazole 200mg + Simenthicone 10mg Suspension",
+                "description": [
+                        "Acute Intestinal Amoebiasis",
+                        "Intra-Abdominal Infections"
+                ]
         },
         {
                 "id": "7",
-                "image": "Logo_Linkedin.jpg",
-                "title": "LinkedIn Logo",
-                "description": "Lorem34!"
+                "image": "lvCef.PNG",
+                "title": "LV-CEF Dry Syrup",
+                "subTitle": "Cyproheptadine 2mg + Tricholine Citrate 275mg Syrup",
+                "description": [
+                        "It can be used for weight gain Anti tubercular drug",
+                        "Virat Hepatitis",
+                        "Atonic Constipation",
+                        "Poor Appetite"
+                ]
         },
         {
                 "id": "8",
-                "image": "Logo_Thread.jpg",
-                "title": "Thread Logo",
-                "description": "Lorem34!"
-        },
-        {
-                "id": "9",
-                "image": "Logo_Facebook.jpg",
-                "title": "Facebook Logo",
-                "description": "Lorem34!"
-        },
-        {
-                "id": "10",
-                "image": "Logo_Insta.jpg",
-                "title": "Insta Logo",
-                "description": "Lorem34!"
-        },
-        {
-                "id": "11",
-                "image": "Logo_Linkedin.jpg",
-                "title": "LinkedIn Logo",
-                "description": "Lorem34!"
-        },
-        {
-                "id": "12",
-                "image": "Logo_Thread.jpg",
-                "title": "Thread Logo",
-                "description": "Lorem34!"
+                "image": "lvzolID.PNG",
+                "title": "LVZOLID",
+                "subTitle": "Linezolid 100mg/5ml Oral Suspension",
+                "description": [
+                        "Vancomycin - Resistant Infections",
+                        "Nosocomial Pneumonia",
+                        "Community - Acquired Pneumonia"
+                ]
         }
 ]

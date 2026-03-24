@@ -32,3 +32,4 @@ const fetchJSON = async (filename) => {
 
 // Specific fetch functions
 export const getSyrups = () => fetchJSON("syrups.json");
+export const getProtien = () => fetchJSON("protien&drops.json");

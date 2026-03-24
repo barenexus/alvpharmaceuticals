@@ -1,67 +1,88 @@
-.container {
-  padding: 40px 60px;
-  background: #f8fbff;
+.protein {
+  padding: 60px 80px;
+  background: linear-gradient(to bottom, #f8fbff, #eef4ff);
 
   &__heading {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     color: #1a2b49;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     position: relative;
 
     &::after {
       content: "";
-      width: 80px;
+      width: 90px;
       height: 4px;
       background: linear-gradient(to right, #ff9933, #138808);
       display: block;
-      margin: 10px auto 0;
+      margin: 12px auto 0;
       border-radius: 5px;
     }
   }
 
   &__items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
 
-    &__item {
-      background: #fff;
-      border-radius: 16px;
-      padding: 20px;
-      transition: all 0.3s ease;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-      text-align: center;
-      cursor: pointer;
+  &__card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.4s;
+    cursor: pointer;
 
-      &:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-      }
+    &:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    }
+  }
 
-      &__image {
-        height: 160px;
-        margin-bottom: 15px;
+  &__image {
+    height: 220px;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        img {
-          height: 100%;
-          width: 100%;
-          object-fit: contain;
-        }
-      }
+    img {
+      height: 180px;
+      object-fit: contain;
+      transition: 0.4s;
+    }
+  }
 
-      &__title {
-        font-size: 20px;
-        font-weight: 600;
-        color: #0f172a;
-        margin-bottom: 10px;
-      }
+  &__card:hover img {
+    transform: scale(1.1);
+  }
 
-      &__description {
+  &__content {
+    padding: 20px;
+    text-align: left;
+
+    h3 {
+      font-size: 22px;
+      color: #0f172a;
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      font-size: 16px;
+      color: #2563eb;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin-bottom: 20px;
+
+      li {
         font-size: 14px;
         color: #64748b;
-        line-height: 1.5;
+        margin-bottom: 8px;
       }
     }
   }
