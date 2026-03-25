@@ -1,0 +1,194 @@
+[
+        {
+                "id": "1",
+                "image": "ldoxim200.PNG",
+                "title": "L-Doxim-200",
+                "subTitle": "Cefopodoxime Proxetil 200mg Tablets",
+                "description": [
+                        "Pharyngitis & Tonsillitis",
+                        "Uncomplicated UTI",
+                        "AECB & Acute CAP",
+                        "Skin & Skin Structure Infections",
+                        "Acute uncomplicated gonorrhoea"
+                ]
+        },
+        {
+                "id": "2",
+                "image": "lvcef200.PNG",
+                "title": "Lvcef-200 LB",
+                "subTitle": "Cefixime 200mg + Lactic Acid Bacillus 60 Million Sores Tablets",
+                "description": [
+                        "Respiratory Tract Infections",
+                        "Skin & Soft Tissue Infections",
+                        "Post Surgical Infections",
+                        "Odontogenic Infections",
+                        "Urinary Tract Infections",
+                        "Otitis Media"
+                ]
+        },
+        {
+                "id": "3",
+                "image": "lvclavLb625.PNG",
+                "title": "Lvclave-LB 625",
+                "subTitle": "Amoxycillin 500mg + Clavulanic Acid 125mg + Lactic Acid Bacillus 60million spores Tablets",
+                "description": [
+                        "Skin & Soft Tissue Infection",
+                        "Respiratory Tract Infections",
+                        "Offer Convienent Switch Over Therapy",
+                        "AECB",
+                        "Gynaecological Infections",
+                        "Intra Abdominal Sepsis"
+                ]
+        },
+        {
+                "id": "4",
+                "image": "lvcold.PNG",
+                "title": "Lvcold",
+                "subTitle": "Paracetamol 500mg + Phenylepherine HCI 10mg + Cetrizine HCI 5mg Tablets",
+                "description": [
+                        "Allergic rhinitis",
+                        "Hay fever",
+                        "Urticaria",
+                        "Cough and Cold"
+                ]
+        },
+        {
+                "id": "5",
+                "image": "lvCort4.PNG",
+                "title": "Lvcort-4",
+                "subTitle": "Cyproheptadine 2mg + Tricholine Citrate 275mg Syrup",
+                "description": [
+                        "It can be used for weight gain Anti tubercular drug",
+                        "Virat Hepatitis",
+                        "Atonic Constipation",
+                        "Poor Appetite"
+                ]
+        },
+        {
+                "id": "6",
+                "image": "lvcort6.PNG",
+                "title": "Lvcort-6",
+                "subTitle": "Deflazacort 6mg Tablets",
+                "description": [
+                        "Severe Allergic Reactions",
+                        "Rheumatoid Arthritis",
+                        "Dystrophy",
+                        "Nephrotic Syndrome",
+                        "Sarcodosis",
+                        "Ulcerative Colitis",
+                        "Asthma",
+                        "Juvenile indiopathic arthritis",
+                        "Renal Transplant"
+                ]
+        },
+        {
+                "id": "7",
+                "image": "lvfloxOz.PNG",
+                "title": "",
+                "subTitle": "",
+                "description": [
+                        ""
+                ]
+        },
+        {
+                "id": "8",
+                "image": "lvspas.PNG",
+                "title": "Lvspas",
+                "subTitle": "Mefenamic Acid IP 250mg + Diclyclomine HCL IP 10mg Tablets",
+                "description": [
+                        "Post Surgical Uterine spasm",
+                        "Mefenamic Pain & Dysmenorrhoea",
+                        "Gastro-intestinal colic, renal colic, biliary colic",
+                        "Peptic ulcers, Spastic Constipation, Colitis"
+                ]
+        },
+        {
+                "id": "9",
+                "image": "lvspasD.PNG",
+                "title": "Lvspas-D",
+                "subTitle": "Drotaverine Hydrochloride 80mg + Mefenamic Acid IP 250mg Tablets",
+                "description": [
+                        "Post Surgical Uterine spasm",
+                        "Mefenamic Pain & Dysmenorrhoea",
+                        "Gastro-intestinal colic, renal colic, biliary colic",
+                        "Peptic ulcers, Spastic Constipation, Colitis"
+                ]
+        },
+        {
+                "id": "10",
+                "image": "lvzineM.PNG",
+                "title": "Lvzine-M",
+                "subTitle": "Levocetrizine 5mg & Montelukast 10mg Tablet",
+                "description": [
+                        "Chronic Idiopathic Urticaria",
+                        "Seasonal Allergic Rhinitis",
+                        "Perennial Allergic Rhinitis",
+                        "Atopic Eczema",
+                        "Allergic Dermatitis",
+                        "Extrinsic Asthma"
+                ]
+        },
+        {
+                "id": "11",
+                "image": "lvzitro500.PNG",
+                "title": "Lvzitro 500",
+                "subTitle": "Azithromycin 250mg / 500mg Tablets",
+                "description": [
+                        "RTI",
+                        "Resistance Typhoid",
+                        "Malaria",
+                        "Skin & Soft Tissue",
+                        "S.T.D",
+                        "Otitis Media"
+                ]
+        },
+        {
+                "id": "12",
+                "image": "mlidP.PNG",
+                "title": "M-LID-P",
+                "subTitle": "Nimesulide 100mg + Paracetamol 500mg Tablets",
+                "description": [
+                        "Dental Pain",
+                        "Sports Injury",
+                        "Dysmenorrhoea",
+                        "Fever",
+                        "Low Back Pain",
+                        "Osteoarthritis"
+                ]
+        },
+        {
+                "id": "13",
+                "image": "mlidAp.PNG",
+                "title": "Mlid-AP",
+                "subTitle": "(Aceclofenac 100mg + Paracetamol 325mg) Tablets",
+                "description": [
+                        "Acute Pain",
+                        "Arthritis Pain",
+                        "Tooth Extraction",
+                        "Post Surgical Pain",
+                        "Fibrositis / Tendonitis"
+                ]
+        },
+        {
+                "id": "14",
+                "image": "mlidsp.PNG",
+                "title": "Mlid-SP",
+                "subTitle": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg Tablets",
+                "description": [
+                        "Traumatic Injury",
+                        "Dental Abscesses",
+                        "ENT Inflammation",
+                        "Ostecarthritis",
+                        "Post Surgical Inflammation"
+                ]
+        },
+        {
+                "id": "15",
+                "image": "mlid.PNG",
+                "title": "",
+                "subTitle": "",
+                "description": [
+                        ""
+                ]
+        }
+]

@@ -2,42 +2,41 @@ import React, { useEffect, useState } from "react";
 import "./Tablets.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { getSyrups } from "../../services/dataServices";
+import { getTablets } from "../../services/dataServices";
 
 const Tablets = () => {
   const [tablets, setTablets] = useState([]);
 
   useEffect(() => {
-    getSyrups()
+    getTablets()
       .then((data) => setTablets(data))
       .catch((err) => console.error(err));
 
-    AOS.init({ duration: 900, once: true });
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
-    <div className="container">
-      <div className="container__heading" data-aos="fade-up">
+    <div className="tablet">
+      <div className="tablet__heading" data-aos="fade-up">
         Tablets
       </div>
 
-      <div className="container__items">
-        {tablets.map((tablet, id) => (
-          <div
-            className="container__items__item"
-            key={id}
-            data-aos="zoom-in"
-          >
-            <div className="container__items__item__image">
-              <img src={tablet.image} alt={tablet.title} />
+      <div className="tablet__items">
+        {tablets.map((tablet) => (
+          <div className="tablet__card" key={tablet.id} data-aos="zoom-in">
+            <div className="tablet__image">
+              <img src={`/icons/${tablet.image}`} alt={tablet.title} />
             </div>
 
-            <div className="container__items__item__title">
-              {tablet.title}
-            </div>
+            <div className="tablet__content">
+              <h3>{tablet.title}</h3>
+              <h4>{tablet.subTitle}</h4>
 
-            <div className="container__items__item__description">
-              {tablet.description}
+              <ul>
+                {tablet.description.map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}
