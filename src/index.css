@@ -1,4 +1,14 @@
 /* index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
 :root {
   --primary-color: #0ea5e9; /* Sky Blue */
   --secondary-color: #6366f1; /* Indigo */
