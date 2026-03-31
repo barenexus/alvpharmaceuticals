@@ -22,8 +22,10 @@ const Header = () => {
         </Link>
 
         {/* ===== PRODUCTS DROPDOWN START ===== */}
-        <div className="dropdown">
-        <span className="dropbtn">Products <span className="arrow">▾</span></span>
+        <div className={`dropdown ${isMenuOpen ? "active" : ""}`}>
+          <span className="dropbtn">
+            Products <span className="arrow">▾</span>
+          </span>
 
           <div className="dropdown-content">
             <Link to="/products/tablets" onClick={toggleMenu}>

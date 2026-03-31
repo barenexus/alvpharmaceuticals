@@ -37,7 +37,7 @@ const Home = () => {
           </h1>
 
           <p data-aos="fade-up" data-aos-delay="300">
-            Vaishnavi Enterprises delivers innovative solutions with unwavering
+            ALV Pharmaceuticals delivers innovative solutions with unwavering
             commitment to quality, growth, and performance.
           </p>
 
@@ -53,6 +53,7 @@ const Home = () => {
               Contact Us
             </a>
           </div>
+          <div className="scroll-down"></div>
         </div>
       </section>
 
