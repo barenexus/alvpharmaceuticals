@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import About from "../About/About";
-import Tablets from "../Tablets/Tablets";
 import Contact from "../Contact/Contact";
 
 // Optional SVG icon (hero accent)
@@ -59,7 +58,6 @@ const Home = () => {
 
       {/* REST OF PAGE */}
       <About />
-      <Tablets />
       <Contact />
     </div>
   );

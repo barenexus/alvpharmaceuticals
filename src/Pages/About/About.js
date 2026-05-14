@@ -47,27 +47,71 @@ const About = () => {
       </section>
 
       {/* MISSION VISION */}
+      {/* MISSION VISION */}
       <section className="mission-vision">
         <div className="container mv-grid">
           <div className="mv-card" data-aos="zoom-in">
             <h3>Our Mission</h3>
             <p>
-              To provide high-quality, safe, and affordable pharmaceutical
-              products that improve global healthcare standards.
+              To improve lives by delivering high-quality, safe, and affordable
+              pharmaceutical products. We are committed to innovation, ethical
+              practices, and customer-centric healthcare solutions that meet
+              global standards.
+            </p>
+            <p>
+              At ALV Pharmaceuticals, our mission is to be an innovation-driven,
+              transnational pharmaceutical company committed to improving global
+              healthcare. We focus on developing safe, effective, and affordable
+              medicines through a strong scientific approach while making quality
+              healthcare accessible to a wider population.
             </p>
           </div>
+
           <div className="mv-card" data-aos="zoom-in" data-aos-delay="150">
             <h3>Our Vision</h3>
             <p>
-              To become a globally recognized pharmaceutical company known for
-              innovation, quality, and trust.
+              To become a trusted and leading pharmaceutical company recognized
+              for excellence, innovation, and commitment to enhancing global
+              health and well-being.
             </p>
           </div>
+
           <div className="mv-card" data-aos="zoom-in" data-aos-delay="300">
             <h3>Our Values</h3>
+
             <p>
-              Quality, Integrity, Innovation, Customer Satisfaction, and
-              Teamwork are the core values that drive our organization.
+              <strong>Innovation –</strong> We continuously explore, experiment,
+              and develop solutions that enhance human health and improve
+              quality of life.
+            </p>
+
+            <p>
+              <strong>Quality –</strong> We are committed to delivering
+              excellence through reliable and effective healthcare solutions,
+              benchmarked against global best practices.
+            </p>
+
+            <p>
+              <strong>Collaboration –</strong> We believe in teamwork, diverse
+              perspectives, and fostering an inclusive environment that delivers
+              meaningful results.
+            </p>
+
+            <p>
+              <strong>Courage –</strong> We encourage openness, confidence, and
+              constructive feedback to drive continuous growth and improvement.
+            </p>
+
+            <p>
+              <strong>Performance –</strong> We empower our teams to innovate,
+              take ownership, and create exceptional value through leadership,
+              accountability, and passion.
+            </p>
+
+            <p>
+              <strong>Integrity –</strong> We uphold the highest ethical
+              standards with honesty, transparency, and trust in everything we
+              do.
             </p>
           </div>
         </div>
@@ -118,26 +162,55 @@ const About = () => {
         </div>
       </section>
 
-      {/* DIRECTOR MESSAGE */}
-      <section className="about-section container">
-        <div data-aos="fade-right" className="director-card">
-          <div className="about-grid">
-            <div data-aos="fade-right">
-              <h2>Director's Message</h2>
-              <p>
-                At ALV Pharmaceuticals, we are committed to delivering
-                world-class pharmaceutical products that meet international
-                quality standards. Our goal is to expand globally while
-                maintaining the highest level of trust and customer
-                satisfaction.
-              </p>
-              <p>
-                We believe in innovation, quality manufacturing, and long-term
-                partnerships with our clients across the world.
-              </p>
-            </div>
-            <div className="image-placeholder" data-aos="fade-left">
-              Director Image
+      {/* CEO MESSAGE */}
+      <section className="ceo-section">
+        <div className="container">
+          <div className="ceo-card" data-aos="fade-up">
+            <div className="ceo-grid">
+              <div className="ceo-image" data-aos="fade-right">
+                CEO Image
+              </div>
+
+              <div className="ceo-content" data-aos="fade-left">
+                <span className="ceo-tag">Leadership Message</span>
+
+                <h2>CEO Message</h2>
+
+                <p>
+                  At ALV Pharmaceuticals, our journey is driven by a clear
+                  purpose — to improve lives through quality, innovation, and
+                  accessible healthcare solutions. We believe that healthcare is
+                  not just a service, but a responsibility towards society, and
+                  we are committed to fulfilling it with integrity and
+                  excellence.
+                </p>
+
+                <p>
+                  In a rapidly evolving pharmaceutical landscape, our focus
+                  remains on developing safe, effective, and affordable
+                  medicines that meet the needs of people across diverse
+                  communities. Innovation and scientific advancement are at the
+                  core of our approach, enabling us to continuously enhance our
+                  products and processes.
+                </p>
+
+                <p>
+                  Our success is built on the trust of our customers, the
+                  dedication of our team, and the support of our stakeholders.
+                  We take pride in fostering a culture of collaboration,
+                  diversity, and accountability, where every individual is
+                  empowered to contribute and grow.
+                </p>
+
+                <p>
+                  As we move forward, ALV Pharmaceuticals remains committed to
+                  maintaining the highest standards of quality and ethics while
+                  expanding our reach to serve more people globally. Together,
+                  we strive to create a healthier and better future.
+                </p>
+
+                <h4 className="ceo-name">— CEO, ALV Pharmaceuticals</h4>
+              </div>
             </div>
           </div>
         </div>
