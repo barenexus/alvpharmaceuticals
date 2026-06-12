@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-info" data-aos="fade-right">
             <h3>Contact Information</h3>
             <p>📞 +91 9870900447</p>
-            <p>📧 info@vaishnavienterprises.com</p>
+            <p>📧 alvpharmacutical@gmail.com</p>
             <p>📍 Shamli, Uttar Pradesh, 247776</p>
             <p>⏰ Mon–Fri, 9AM–6PM</p>
           </div>
