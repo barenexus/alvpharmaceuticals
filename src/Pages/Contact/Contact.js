@@ -19,9 +19,9 @@ const Contact = () => {
         <div className="contact-grid">
           <div className="contact-info" data-aos="fade-right">
             <h3>Contact Information</h3>
-            <p>📞 +91 98765 43210</p>
+            <p>📞 +91 9870900447</p>
             <p>📧 info@vaishnavienterprises.com</p>
-            <p>📍 Ghaziabad, Uttar Pradesh</p>
+            <p>📍 Shamli, Uttar Pradesh, 247776</p>
             <p>⏰ Mon–Fri, 9AM–6PM</p>
           </div>
 

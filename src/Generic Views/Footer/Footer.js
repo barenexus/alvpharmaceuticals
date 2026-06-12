@@ -54,10 +54,10 @@ const Footer = () => {
             <div data-aos="fade-up" data-aos-delay="400">
               <h3 className="footer-title">Service Areas</h3>
               <ul className="footer-links purple">
-                <li><a href="#">Technology Solutions</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Business Solutions</a></li>
-                <li><a href="#">Human Resources</a></li>
+                <li><a href="/">Technology Solutions</a></li>
+                <li><a href="/">Digital Marketing</a></li>
+                <li><a href="/">Business Solutions</a></li>
+                <li><a href="/">Human Resources</a></li>
               </ul>
             </div>
 
@@ -67,20 +67,20 @@ const Footer = () => {
               <ul className="footer-contact">
                 <li>
                   <strong>Call Us:</strong>
-                  <a href="tel:+917818835004">+91 7818835004</a>
+                  <a href="tel:+919870900447">+91 9870900447</a>
                 </li>
                 <li>
                   <strong>Email Us:</strong>
-                  <a href="mailto:info@barenexus.com">info@barenexus.com</a>
+                  <a href="mailto:alvpharmacutical@gmail.com">alvpharmacutical@gmail.com</a>
                 </li>
                 <li>
                   <strong>Office:</strong>
                   <a
-                    href="https://maps.app.goo.gl/nJHyPe8V2UBm2gHW7"
+                    href="https://maps.app.goo.gl/b5W2gkqsLNneL9qK6?g_st=iw"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    PT-62/3 LGF, Kalkaji, New Delhi 110019
+                    1st FLOOR, 3, HOSPITAL ROAD, NEAR HANUMAN CHOWK, Shamli, Uttar Pradesh, 247776
                   </a>
                 </li>
               </ul>
