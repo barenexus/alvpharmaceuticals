@@ -90,7 +90,7 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="footer-bottom" data-aos="fade-up">
-            <p>© 2026 Vaishnavi Enterprises. All Rights Reserved.</p>
+            <p>© 2026 ALV Pharmaceuticals. All Rights Reserved.</p>
             <div className="footer-policy">
               <Link to="/privacy-policy">Privacy Policy</Link>
               <Link to="/term-and-conditions">Terms & Conditions</Link>
