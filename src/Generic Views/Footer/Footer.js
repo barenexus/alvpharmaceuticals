@@ -14,26 +14,35 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="footer-container">
           <div className="footer-grid">
-            
             {/* About Us */}
             <div data-aos="fade-up">
               <h3 className="footer-title gradient-text">About Us</h3>
-              <p className="footer-text">
-                Lorem34
-              </p>
+              <p className="footer-text">Lorem34</p>
 
               <h5 className="footer-subtitle">Follow Us</h5>
               <div className="social-icons">
-                <a href="https://www.facebook.com/profile.php?id=61578192187504" className="social fb">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61578192187504"
+                  className="social fb"
+                >
                   <img src="/Logo_Facebook.jpg" alt="Facebook" />
                 </a>
-                <a href="https://www.linkedin.com/company/barenexus/" className="social linkedin">
+                <a
+                  href="https://www.linkedin.com/company/barenexus/"
+                  className="social linkedin"
+                >
                   <img src="/Logo_Linkedin.jpg" alt="LinkedIn" />
                 </a>
-                <a href="https://www.instagram.com/barenexus_consultants" className="social insta">
+                <a
+                  href="https://www.instagram.com/barenexus_consultants"
+                  className="social insta"
+                >
                   <img src="/Logo_Insta.jpg" alt="Instagram" />
                 </a>
-                <a href="https://www.threads.com/@barenexus_consultants" className="social threads">
+                <a
+                  href="https://www.threads.com/@barenexus_consultants"
+                  className="social threads"
+                >
                   <img src="/Logo_Thread.jpg" alt="Threads" />
                 </a>
               </div>
@@ -43,10 +52,18 @@ const Footer = () => {
             <div data-aos="fade-up" data-aos-delay="200">
               <h3 className="footer-title">Quick Links</h3>
               <ul className="footer-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/products">Our Products</Link></li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/products">Our Products</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact Us</Link>
+                </li>
               </ul>
             </div>
 
@@ -54,10 +71,17 @@ const Footer = () => {
             <div data-aos="fade-up" data-aos-delay="400">
               <h3 className="footer-title">Service Areas</h3>
               <ul className="footer-links purple">
-                <li><a href="/">Technology Solutions</a></li>
-                <li><a href="/">Digital Marketing</a></li>
-                <li><a href="/">Business Solutions</a></li>
-                <li><a href="/">Human Resources</a></li>
+                <li>
+                  <Link to="/services/machinery">Machinery</Link>
+                </li>
+                <li>
+                  <Link to="/services/surgical--items">Surgical Items</Link>
+                </li>
+                <li>
+                  <Link to="/services/hospital--furniture">
+                    Hospital Furniture
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -71,7 +95,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <strong>Email Us:</strong>
-                  <a href="mailto:alvpharmacutical@gmail.com">alvpharmacutical@gmail.com</a>
+                  <a href="mailto:alvpharmacutical@gmail.com">
+                    alvpharmacutical@gmail.com
+                  </a>
                 </li>
                 <li>
                   <strong>Office:</strong>
@@ -80,12 +106,12 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    1st FLOOR, 3, HOSPITAL ROAD, NEAR HANUMAN CHOWK, Shamli, Uttar Pradesh, 247776
+                    1st FLOOR, 3, HOSPITAL ROAD, NEAR HANUMAN CHOWK, Shamli,
+                    Uttar Pradesh, 247776
                   </a>
                 </li>
               </ul>
             </div>
-
           </div>
 
           {/* Bottom Bar */}
@@ -96,7 +122,6 @@ const Footer = () => {
               <Link to="/term-and-conditions">Terms & Conditions</Link>
             </div>
           </div>
-
         </div>
       </div>
     </footer>

@@ -11,6 +11,9 @@ import Syrups from "./Pages/Syrups/Syrups";
 import ProtienAndDrops from "./Pages/ProtienAndDrops/ProtienAndDrops";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Generic Views/Footer/Footer";
+import Machinery from "./Pages/Machinery/Machinery";
+import HospitalFurniture from "./Pages/HospitalFurniture/HospitalFurniture";
+import SurgicalItems from "./Pages/SurgicalItems/SurgicalItems";
 
 const App = () => {
   return (
@@ -26,6 +29,9 @@ const App = () => {
             <Route path="/products/syrups" element={<Syrups />} />
             <Route path="/products/protien&drops" element={<ProtienAndDrops />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/services/machinery" element={<Machinery />} />
+            <Route path="/services/hospital--furniture" element={<HospitalFurniture />} />
+            <Route path="/services/surgical--items" element={<SurgicalItems />} />
           </Routes>
         </main>
         <Footer/>

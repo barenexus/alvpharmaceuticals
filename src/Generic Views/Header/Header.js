@@ -21,6 +21,28 @@ const Header = () => {
           About
         </Link>
 
+        {/* ===== Service DROPDOWN START ===== */}
+        <div className={`dropdown ${isMenuOpen ? "active" : ""}`}>
+          <span className="dropbtn">
+            Services <span className="arrow">▾</span>
+          </span>
+
+          <div className="dropdown-content">
+            <Link to="/services/machinery" onClick={toggleMenu}>
+              Machinery
+            </Link>
+
+            <Link to="/services/surgical--items" onClick={toggleMenu}>
+              Surgical Items
+            </Link>
+
+            <Link to="/services/hospital--furniture" onClick={toggleMenu}>
+              Hospital Furniture
+            </Link>
+          </div>
+        </div>
+        {/* ===== Service DROPDOWN END ===== */}
+
         {/* ===== PRODUCTS DROPDOWN START ===== */}
         <div className={`dropdown ${isMenuOpen ? "active" : ""}`}>
           <span className="dropbtn">
